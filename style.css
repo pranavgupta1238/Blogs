@@ -226,15 +226,17 @@ body.light-mode {
 }
 
 
-.heading-card {
-  padding: 5rem 5.5rem 4rem;
-}
 .content-card {
   padding: clamp(26px, 6vw, 72px);
   border: 1px solid var(--soft);
   background: var(--paper);
   box-shadow: 0 24px 80px var(--shadow);
   backdrop-filter: blur(18px);
+}
+
+
+.heading-card {
+  padding: 5rem 5.5rem 4rem;
 }
 
 .heading-card {
