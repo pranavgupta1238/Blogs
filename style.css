@@ -225,7 +225,10 @@ body.light-mode {
   gap: 24px;
 }
 
-.heading-card,
+
+.heading-card {
+  padding: 5rem 5.5rem 4rem;
+}
 .content-card {
   padding: clamp(26px, 6vw, 72px);
   border: 1px solid var(--soft);
@@ -529,9 +532,7 @@ h1 {
     padding-top: 82px;
   }
 
-  .heading-card {
-  padding: 5rem 5.5rem 4rem;
-  }
+  .heading-card,
   .content-card {
     padding: 24px;
   }
